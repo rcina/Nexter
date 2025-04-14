@@ -1,0 +1,6 @@
+@use "base.scss" as variables;
+
+.gallery {
+  background-color: variables.$color-grey-dark-1;
+  grid-column: full-start / full-end;
+}
