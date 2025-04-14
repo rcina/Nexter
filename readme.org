@@ -1,0 +1,2 @@
+* Nexter project
+A project to learn CSS grid.
