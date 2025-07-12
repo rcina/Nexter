@@ -11,6 +11,10 @@
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(6, 1fr);
     align-items: center;
+
+    @media only screen and (max-width: variables.$bp-medium) {
+      grid-column: 1 / -1;
+    }
   }
 
   &__img--1 {
@@ -46,6 +50,11 @@
     display: grid;
     align-content: center;
     justify-items: start;
+
+    @media only screen and (max-width: variables.$bp-medium) {
+      grid-column: 1 / -1;
+      grid-row: 5 / 6;
+    }
   }
 
   &__text {
